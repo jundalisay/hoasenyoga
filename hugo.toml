@@ -1,0 +1,281 @@
+baseURL = 'https://superphysics.org/'
+languageCode = 'en-us'
+title = 'Superphysics'
+timeout = "300s"
+ignoreLogs = ['warning-goldmark-raw-html']
+theme = "super"
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = true
+enableEmoji = true
+
+# paginate = 12
+
+[pagination]
+pagerSize = 24
+
+[languages]
+  [languages.en]
+    contentDir = "content/en/" #English
+    weight = 1
+    languageName = "English"
+    [languages.en.menu]
+      main = [
+        {name = "Research", url = "research", weight = 1},
+        {name = "Core", url = "superphysics", weight = 2},
+        {name = "Math", url = "supermath", weight = 3},
+        {name = "Material", url = "material", weight = 5},
+        {name = "Bio", url = "bio", weight = 7},
+        {name = "Society", url = "social/supersociology", weight = 9},
+        {name = "Economics", url = "social/economics", weight = 10}, 
+        {name = "Cycles", url = "social/cycles", weight = 11},
+        {name = "Spiritual", url = "spiritual", weight = 14},
+        {name = "News", url = "news", weight = 1},
+        {name = "FAQs", url = "faqs", weight = 25},
+        {name = "Tags", url = "tags", weight = 27},
+        {name = "Help!", url = "help", weight = 29}
+      ]
+    [languages.en.params]
+      flag = "/flags/gb.png"
+      title = "Superphysics: Science Merged with Metaphysics"
+      subtitle = "A New Science Based on Waves, Socratic Dialectics, and Cartesian Physics for Solving Problems"
+      youtube = "mNwyj7WHKKo"
+
+    [languages.en.params.trio]
+      intro = "All Knowledge Can Be Grouped Into Three"
+      icons = [
+        { img = "/icons/tao.png", title = "Metaphysics", sub = "1-50% Replicable: Paradoxical" },
+        { img = "/icons/sp.png", title = "Superphysics", sub = "51-99% Replicable: Subjective" },
+        { img = "/icons/atom.png", title = "Physics", sub = "100% Replicable: Objective" },        
+      ]
+
+    [languages.en.params.quote0]
+      content = "Natural science is divided into physic and metaphysic. Physic should contemplate that which is inherent in matter and therefore transitory. Metaphysic should contemplate that which is abstracted and fixed."
+      icon = "Francis Bacon"
+      author = "Francis Bacon"
+      src = "The Proficience And Advancement Of Learning, Book 2, Part 7"
+    [languages.en.params.quote1]
+      content = "There are 3 principal sciences: Mechanics, Medicine, Ethics"
+      icon = "Rene Descartes"
+      author = "Rene Descartes"
+      src = "The Principles of Philosophy, Preface"
+    [languages.en.params.quote2]
+      content = "Things cannot have absolute Existence without any relation to their being perceived. They cannot have any Existence without the Minds which perceive them. I find it strange that people think that Houses, Mountains, and all sensible Objects have a Real Existence, distinct from their being perceived by the Understanding."
+      icon = "George Berkeley"
+      author = "George Berkeley"
+      src = "The Principles of Human Knowledge, Article 3"
+
+    [languages.en.params.sciences]
+      title = "The Sciences That Open Up The Universe"
+      cards = [
+        { img = "/avatars/descartes.jpg", title = "Material Superphysics", sub = "Replacing the Physics of Newton and Einstein with that of Descartes and Spinoza", url = "/material"},
+        { img = "/graphics/super/yin.jpg", title = "Bio Superphysics", sub = "Biology and Medicine that combines Western and Asian Principles", url = "/bio"},
+        { img = "/avatars/smith.jpg", title = "Social Superphysics", sub = "A Society as a Metaphysical Organism with a Life Cycle", url = "/social"},        
+        { img = "/avatars/buddha.jpg", title = "Spiritual Superphysics", sub = "Upgrading Experience beyond Matter and into the Aether or Akasha", url = "/spiritual"},
+        { img = "/photos/meta/om.jpg", title = "Supermath and Qualimath", sub = "Mathematics based on Base-3, Base-6, Shapes, and Qualities", url = "/supermath"},
+      ]
+      
+    [languages.en.params.panels]
+      title = "Let's Solve All Problems!"
+      cards = [
+        { img = "/photos/econ/writer.jpg", title = "Evidence", sub = "We test Superphysics in the real world", url = "/evidence" },
+        { img = "/graphics/tech/solar.jpg", title = "Proposed Solutions and Technologies", sub = "Enlightenment ideas can lead to totally new technologies", url = "/solutions" },
+        { img = "/photos/countries/ua/war.jpg", title = "Predictions from Social Cycles", sub = "We test our predictions with actual events", url = "/social/cycles" },
+        { img = "/photos/buy.jpg", title = "Policies from Social Cycles", sub = "A better world needs policies that match Nature", url = "/social/policies" },
+      ]
+
+  [languages.ar]
+    contentDir = "content/ar/"
+    weight = 2
+    languageName = "عربي"
+    [languages.ar.menu]
+        main = [
+          {name = "Help!", url = "help", weight = 2}
+        ]
+    [languages.ar.params]
+      flag = "/flags/sa.png"
+      title= "الفيزياء الفائقة= نموذج علمي يعتمد على الموجات"
+      head = "علم جديد مبني على الميتافيزيقا والجدل السقراطي"
+      subtitle = "يمكن تجميع كل المعرفة في ثلاثة فئات"
+      youtube = "P4BSS1GeJwA"
+    [languages.ar.params.trio]
+      intro = "يمكن تقسيم كل المعرفة إلى ثلاثة"
+      icons = [
+        { img = "/icons/tao.png", title = "الميتافيزيقيا", sub = "1-50% قابلة للتكرار: المفارقة" },
+        { img = "/icons/sp.png", title = "Superphysics", sub = "51-99% قابلة للتكرار: شخصي" },
+        { img = "/icons/atom.png", title = "الفيزياء", sub  = "100% قابلة للتكرار: موضوعي" },        
+      ]
+
+    [languages.ar.params.quote1]
+      content = "هناك ثلاثة علوم رئيسية: الميكانيكا، والطب، والأخلاق"
+      icon = "Rene Descartes"
+      author = "Rene Descartes"
+      src = "The Principles of Philosophy, Preface"
+    [languages.ar.params.quote2]
+      content = "لا وجود للأشياء دون إدراكها. ولا وجود لها دون عقول تُدركها. يظن الناس خطأً أن البيوت والجبال والأشياء المرئية موجودة دون عقل يُدركها.."
+      icon = "George Berkeley"
+      author = "George Berkeley"
+      src = "The Principles of Human Knowledge, Article 3"
+
+  [languages.vi]
+    contentDir = "content/vi/"
+    weight = 7
+    languageName = "Tieng Viet"
+    [languages.vi.menu]
+      main = [
+        {name = " मदद कर सकते", url = "help", weight = 2}
+      ]
+    [languages.vi.params]
+      flag = "/flags/in.png"
+      title = "सुपरफिजिक्स: तरंग-आधारित वैज्ञानिक मानदंड"
+      subtitle = "मेटाफिजिक्स और सोक्रेटिक वाद के आधार पर आधारित एक नया विज्ञान"
+      youtube= "pJDEDX7DI5Y"
+    [languages.vi.params.trio]
+      intro = "सभी ज्ञान को तीन भागों में विभाजित किया जा सकता है:"
+      icons = [
+        { img = "/icons/tao.png", title = "मेटाफिजिक्स", sub = "0-50% पुनरावलोकनीय: विरोधात्मक" },
+        { img = "/icons/sp.png", title = "सुपरफिजिक्स", sub = "51-99% पुनरावलोकनीय: व्यक्तिगत" },
+        { img = "/icons/atom.png", title = "भौतिकी", sub = "100% पुनरावलोकनीय: वस्तुगत" },        
+      ]
+    [languages.vi.params.quote1]
+      content = "तीन प्रमुख विज्ञान हैं: यांत्रिकी, चिकित्सा, नैतिकता"
+      icon = "Rene Descartes"
+      author = "Rene Descartes"
+      src = "The Principles of Philosophy, Preface"
+    [languages.vi.params.quote2]
+      content = "मन द्वारा देखे जाने के बिना चीजों का पूर्ण अस्तित्व नहीं हो सकता। लोग अजीब तरह से सोचते हैं कि घरों, पहाड़ों और सभी वस्तुओं का एक वास्तविक अस्तित्व है, जो मन द्वारा देखे जाने से अलग है"
+      icon = "George Berkeley"
+      author = "George Berkeley"
+      src = "The Principles of Human Knowledge, Article 3"
+
+
+
+[params]
+  logo = "/icons/sp.png"
+  shorttitle = "Superphysics"
+  copyright = "Copyright © 2025 | <a class='text-white!' href='https://www.pantrypoints.com'>Pantrypoints Technologies</a>"
+  favicon = "/icons/sp30.png"
+  ascentColor = "bg-blue-100"
+  # The page bundle that is shown on the front page
+  frontBundle = "blog"
+  # Used to hide the post metadata such as posted date, reading time and word count
+  hideMeta = false
+  # To hide "Other languages" option if the post is available in multiple languages
+  hideOtherLanguages = false
+  toc = true
+  hidePageThumbnail = false
+  description = "Superphysics is a new paradigm that merges science and metaphysics in order to solve problems and make life better"
+
+
+[[params.social]]
+  name = "Facebook"
+  icon = "<svg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-brand-facebook' width='30' height='30' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'> <path stroke='none' d='M0 0h24v24H0z' fill='none'></path> <path d='M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3'></path> </svg>"
+  url = "https://www.facebook.com/superphysicsorg"
+[[params.social]]
+  name = "Youtube"
+  icon = "<svg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-brand-youtube' width='30' height='30' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round' > <path stroke='none' d='M0 0h24v24H0z' fill='none' /> <circle cx='12' cy='12' r='9' /> <path d='M10 9l5 3l-5 3z' /> </svg>"
+  url = "https://www.youtube.com/@superphysicsorg"
+[[params.social]]
+  name = "Tiktok"
+  icon = "<svg width='30px' height='30px' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' fill='#5c5c5c' stroke='#5c5c5c'> <g id='SVGRepo_bgCarrier' stroke-width='0'/> <g id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'/> <g id='SVGRepo_iconCarrier'> <title>tiktok_fill</title> <g id='页面-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'> <g id='Brand' transform='translate(-720.000000, -48.000000)'> <g id='tiktok_fill' transform='translate(720.000000, 48.000000)'> <path d='M24,0 L24,24 L0,24 L0,0 L24,0 Z M12.5934901,23.257841 L12.5819402,23.2595131 L12.5108777,23.2950439 L12.4918791,23.2987469 L12.4918791,23.2987469 L12.4767152,23.2950439 L12.4056548,23.2595131 C12.3958229,23.2563662 12.3870493,23.2590235 12.3821421,23.2649074 L12.3780323,23.275831 L12.360941,23.7031097 L12.3658947,23.7234994 L12.3769048,23.7357139 L12.4804777,23.8096931 L12.4953491,23.8136134 L12.4953491,23.8136134 L12.5071152,23.8096931 L12.6106902,23.7357139 L12.6232938,23.7196733 L12.6232938,23.7196733 L12.6266527,23.7031097 L12.609561,23.275831 C12.6075724,23.2657013 12.6010112,23.2592993 12.5934901,23.257841 L12.5934901,23.257841 Z M12.8583906,23.1452862 L12.8445485,23.1473072 L12.6598443,23.2396597 L12.6498822,23.2499052 L12.6498822,23.2499052 L12.6471943,23.2611114 L12.6650943,23.6906389 L12.6699349,23.7034178 L12.6699349,23.7034178 L12.678386,23.7104931 L12.8793402,23.8032389 C12.8914285,23.8068999 12.9022333,23.8029875 12.9078286,23.7952264 L12.9118235,23.7811639 L12.8776777,23.1665331 C12.8752882,23.1545897 12.8674102,23.1470016 12.8583906,23.1452862 L12.8583906,23.1452862 Z M12.1430473,23.1473072 C12.1332178,23.1423925 12.1221763,23.1452606 12.1156365,23.1525954 L12.1099173,23.1665331 L12.0757714,23.7811639 C12.0751323,23.7926639 12.0828099,23.8018602 12.0926481,23.8045676 L12.108256,23.8032389 L12.3092106,23.7104931 L12.3186497,23.7024347 L12.3186497,23.7024347 L12.3225043,23.6906389 L12.340401,23.2611114 L12.337245,23.2485176 L12.337245,23.2485176 L12.3277531,23.2396597 L12.1430473,23.1473072 Z' id='MingCute' fill-rule='nonzero'> </path> <path d='M14,2 C15.1046,2 16,2.89543 16,4 C16,5.44733 17.03,6.6618 18.3984,6.93991 C19.4808,7.15992 20.1799,8.21575 19.9599,9.29819 C19.7399,10.3806 18.6841,11.0798 17.6016,10.8598 C17.0406,10.7457 16.5037,10.5646 16,10.3252 L16,16 C16,19.3137 13.3137,22 10,22 C6.68629,22 4,19.3137 4,16 C4,13.2015 5.91407,10.8551 8.50148,10.1891 C9.57119,9.91382 10.6616,10.5578 10.9369,11.6275 C11.2122,12.6972 10.5682,13.7876 9.49852,14.0629 C8.63547,14.285 8,15.0708 8,16 C8,17.1046 8.89543,18 10,18 C11.1046,18 12,17.1046 12,16 L12,4 C12,2.89543 12.8954,2 14,2 Z' id='路径' fill='#fff'> </path> </g> </g> </g> </g> </svg>"
+  url = "https://www.tiktok.com/@superphysicsorg"
+[[params.social]]
+  name = "Twitter"
+  icon = "<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round' > <path stroke='none' d='M0 0h24v24H0z' fill='none' /> <path d='M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z'/> </svg>"
+  url = "https://x.com/superphysicsorg"
+
+
+[[params.books]]
+  name = "Supereconomics in a Nutshell"
+  img = "/graphics/econ/superecon.jpg"
+  url = "https://www.amazon.com/Supereconomics-Nutshell-Based-Four-Value-ebook/dp/B0F1G35KPF"
+  # url = "https://play.google.com/store/books/details?id=6bhGEQAAQBAJ"
+[[params.books]]
+  name = "The Republic by Plato Simplified"
+  img = "/books/rep.jpg"
+  url = "https://play.google.com/store/books/details/Juan_Dalisay_Jr_The_Simple_Republic_by_Plato?id=WlkBEAAAQBAJ"
+[[params.books]]
+  name = "A Treatise of Human Nature Book 1"
+  img = "/books/t1.jpg"
+  url = "https://play.google.com/store/books/details/Juan_Dalisay_Jr_The_Simple_Treatise_of_Human_Natur?id=iF_XDwAAQBAJ"
+[[params.books]]
+  name = "A Treatise of Human Nature Book 1"
+  img = "/books/t2.jpg"
+  url = "Juan_Dalisay_Jr_The_Simple_Treatise_of_Human_Natur?id=nZjqDwAAQBAJ"
+[[params.books]]
+  name = "A Treatise of Human Nature Book 3"
+  img = "/books/t3.jpg"
+  url = "https://play.google.com/store/books/details/Juan_Dalisay_Jr_The_Simple_Treatise_of_Human_Natur?id=ikj9DwAAQBAJ"
+[[params.books]]
+  name = "The Wealth of Nations 1"
+  img = "/books/w1.jpg"
+  url = "https://play.google.com/store/books/details/Juan_Dalisay_Jr_The_Simple_Wealth_of_Nations_by_Ad?id=BjnPDwAAQBAJ"
+[[params.books]]
+  name = "The Wealth of Nations Books 2 and 3"
+  img = "/books/w2.jpg"
+  url = "https://play.google.com/store/books/details/Juan_Dalisay_Jr_The_Simple_Wealth_of_Nations_by_Ad?id=0iHMDwAAQBAJ"
+[[params.books]]
+  name = "The Wealth of Nations Book 5"
+  img = "/books/w5.jpg"
+  url = "https://play.google.com/store/books/details/Juan_Dalisay_Jr_The_Simple_Wealth_of_Nations_by_Ad?id=WyYAEAAAQBAJ"
+
+
+[build]
+  writeStats = true
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = false
+  [minify.tdewolff]
+    [minify.tdewolff.css]
+      inline = false
+      keepCSS2 = true
+      precision = 0
+    [minify.tdewolff.html]
+      keepComments = false
+      keepConditionalComments = false
+      keepDefaultAttrVals = true
+      keepDocumentTags = true
+      keepEndTags = true
+      keepQuotes = false
+      keepSpecialComments = true
+      keepWhitespace = false
+      templateDelims = ['', '']
+    [minify.tdewolff.js]
+      keepVarNames = false
+      precision = 0
+      version = 2022
+    [minify.tdewolff.json]
+      keepNumbers = false
+      precision = 0
+    [minify.tdewolff.svg]
+      inline = false
+      keepComments = false
+      precision = 0
+    [minify.tdewolff.xml]
+      keepWhitespace = false

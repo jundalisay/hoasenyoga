@@ -1,0 +1,21 @@
+[
+{{- $pages := where .Site.RegularPages "Section" "in" (slice "classes" "articles") -}}
+{{- range $index, $page := $pages -}}
+  {{- if gt $index 0 }},{{ end }}
+  {
+    "title": {{ $page.Title | jsonify }},
+    "permalink": {{ $page.Permalink | jsonify }},
+    "description": {{ $page.Description | jsonify }},
+    "keywords": {{ delimit $page.Keywords ", " | jsonify }},
+    "section": {{ $page.Section | jsonify }},
+    {{- if eq $page.Section "classes" }}
+    "level": {{ $page.Params.level | default "" | jsonify }},
+    "day": {{ $page.Params.day | default "" | jsonify }}
+    {{- else }}
+    "content": {{ $page.Plain | truncate 200 | jsonify }},
+    "date": {{ $page.Date.Format "2006-01-02" | jsonify }},
+    "tags": {{ $page.Params.tags | jsonify }}
+    {{- end }}
+  }
+{{- end -}}
+]

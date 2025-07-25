@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.16",
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.0.6",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}

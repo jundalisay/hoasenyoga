@@ -1,0 +1,41 @@
+<footer style="background-color: teal;" class="pt-5">
+  <div class="container px-4 py-12 mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+    <div class="col-span-1">
+      <a href="/help" class="zoom-sm">
+        <div class="text-2xl font-bold text-white mb-2">{{ i18n "follow" }} &rarr;</div>
+        <p class="opacity-80 text-white">{{ i18n "building" }}</p>
+      </a>      
+    </div>
+    <div class="col-span-1">
+        
+      {{ partial "subs.html" . }}     
+
+      <div class="flex justify-center gap-x-3 flex-wrap gap-y-2">
+        {{ range .Site.Params.social }}
+          <a href="{{ .url }}" target="_blank" rel="noopener" aria-label="{{ .name }}" class="text-gray-300 hover:text-white hover:border-gray-100 dark:text-gray-300 dark:hover:border-gray-100 dark:hover:text-white p-1 inline-block rounded-full border border-transparent cursor-pointer transition-colors">{{ .icon | safeHTML  }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  <div class="container px-4 py-12 mx-auto max-w-4xl">
+
+      <div class="text-2xl font-bold text-white mb-2 text-center">{{ i18n "check" }}</div>
+  
+    <div class="container px-4 py-12 mx-auto max-w-4xl flex flex-wrap gap-4 justify-center">
+
+        {{ range .Site.Data.books }}
+        <a href="{{ .playstore_url }}" 
+           class="block group transition-transform duration-200 hover:scale-105 hover:shadow-lg">
+            <div class="w-24 sm:w-28 md:w-32 lg:w-36 xl:w-40">
+                <img src="{{ .cover_image }}" 
+                     alt="{{ .title }}"
+                     class="w-full h-auto rounded-lg shadow-md group-hover:shadow-xl transition-shadow duration-200">
+                <!-- <p class="text-sm text-gray-700 mt-2 text-center font-medium truncate">{{ .title }}</p> -->
+            </div>
+        </a>
+        {{ end }}
+    </div>
+  </div>
+
+</footer>
