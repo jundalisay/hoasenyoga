@@ -1,6 +1,6 @@
-baseURL = 'https://superphysics.org/'
+baseURL = 'https://hoasen.pantrypoints.com/'
 languageCode = 'en-us'
-title = 'Superphysics'
+title = 'Yoga Hoa Sen'
 timeout = "300s"
 ignoreLogs = ['warning-goldmark-raw-html']
 theme = "super"
@@ -20,15 +20,10 @@ pagerSize = 24
     languageName = "English"
     [languages.en.menu]
       main = [
-        {name = "Research", url = "research", weight = 1},
-        {name = "Core", url = "superphysics", weight = 2},
+        {name = "Articles", url = "articles", weight = 1},
+        {name = "Classes", url = "classes", weight = 2},
         {name = "Math", url = "supermath", weight = 3},
         {name = "Material", url = "material", weight = 5},
-        {name = "Bio", url = "bio", weight = 7},
-        {name = "Society", url = "social/supersociology", weight = 9},
-        {name = "Economics", url = "social/economics", weight = 10}, 
-        {name = "Cycles", url = "social/cycles", weight = 11},
-        {name = "Spiritual", url = "spiritual", weight = 14},
         {name = "News", url = "news", weight = 1},
         {name = "FAQs", url = "faqs", weight = 25},
         {name = "Tags", url = "tags", weight = 27},
@@ -36,8 +31,8 @@ pagerSize = 24
       ]
     [languages.en.params]
       flag = "/flags/gb.png"
-      title = "Superphysics: Science Merged with Metaphysics"
-      subtitle = "A New Science Based on Waves, Socratic Dialectics, and Cartesian Physics for Solving Problems"
+      title = "Yoga Hoa Sen"
+      subtitle = "Solving Problems"
       youtube = "mNwyj7WHKKo"
 
     [languages.en.params.trio]
@@ -83,39 +78,6 @@ pagerSize = 24
         { img = "/photos/buy.jpg", title = "Policies from Social Cycles", sub = "A better world needs policies that match Nature", url = "/social/policies" },
       ]
 
-  [languages.ar]
-    contentDir = "content/ar/"
-    weight = 2
-    languageName = "عربي"
-    [languages.ar.menu]
-        main = [
-          {name = "Help!", url = "help", weight = 2}
-        ]
-    [languages.ar.params]
-      flag = "/flags/sa.png"
-      title= "الفيزياء الفائقة= نموذج علمي يعتمد على الموجات"
-      head = "علم جديد مبني على الميتافيزيقا والجدل السقراطي"
-      subtitle = "يمكن تجميع كل المعرفة في ثلاثة فئات"
-      youtube = "P4BSS1GeJwA"
-    [languages.ar.params.trio]
-      intro = "يمكن تقسيم كل المعرفة إلى ثلاثة"
-      icons = [
-        { img = "/icons/tao.png", title = "الميتافيزيقيا", sub = "1-50% قابلة للتكرار: المفارقة" },
-        { img = "/icons/sp.png", title = "Superphysics", sub = "51-99% قابلة للتكرار: شخصي" },
-        { img = "/icons/atom.png", title = "الفيزياء", sub  = "100% قابلة للتكرار: موضوعي" },        
-      ]
-
-    [languages.ar.params.quote1]
-      content = "هناك ثلاثة علوم رئيسية: الميكانيكا، والطب، والأخلاق"
-      icon = "Rene Descartes"
-      author = "Rene Descartes"
-      src = "The Principles of Philosophy, Preface"
-    [languages.ar.params.quote2]
-      content = "لا وجود للأشياء دون إدراكها. ولا وجود لها دون عقول تُدركها. يظن الناس خطأً أن البيوت والجبال والأشياء المرئية موجودة دون عقل يُدركها.."
-      icon = "George Berkeley"
-      author = "George Berkeley"
-      src = "The Principles of Human Knowledge, Article 3"
-
   [languages.vi]
     contentDir = "content/vi/"
     weight = 7
@@ -151,7 +113,7 @@ pagerSize = 24
 
 [params]
   logo = "/icons/sp.png"
-  shorttitle = "Superphysics"
+  shorttitle = "Yoga Hoa Sen"
   copyright = "Copyright © 2025 | <a class='text-white!' href='https://www.pantrypoints.com'>Pantrypoints Technologies</a>"
   favicon = "/icons/sp30.png"
   ascentColor = "bg-blue-100"

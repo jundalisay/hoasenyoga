@@ -29,20 +29,14 @@
   </svg>
 </button>
     
-    <!-- flex-1 -->
-    <main class="dark:bg-black">
+    <!-- flex-1 dark:bg-black -->
+    <main class="">
     {{ partial "header.html" . }}
 
         {{ block "main" . }}{{ end }}
     </main>
     
     {{ partial "footer.html" . }}
-
-       <!--  <div class="my-10" x-data="{ count: 0 }">
-        <h2> Let's check if AlpineJS is working</h2>
-        <button type="button" class="bg-black border-2 p-1 text-white" x-on:click="count++">Increment</button>
-        <span x-text="count"></span> </div> -->
-   <!-- <script src="/js/cdn.min.js" defer></script> -->
   
     {{ $jsFiles := slice (resources.Get "/js/main.js") (resources.Get "/js/search.js") }}
     {{ $js := $jsFiles | resources.Concat "js/bundle.js" | js.Build | minify }}
@@ -62,22 +56,6 @@
     iconClose.classList.toggle("hidden");
   });
 
-  // Dark mode toggle
-  // const toggleDarkMode = () => {
-  //   document.documentElement.classList.toggle("dark");
-  //   localStorage.theme = document.documentElement.classList.contains("dark") ? "dark" : "light";
-  // };
-
-  // // Load saved dark mode preference
-  // if (
-  //   localStorage.theme === "dark" ||
-  //   (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)
-  // ) {
-  //   document.documentElement.classList.add("dark");
-  // } else {
-  //   document.documentElement.classList.remove("dark");
-  // }
-
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
   (function(){
   var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -89,6 +67,7 @@ var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 })();
   
 </script>
+
   </body>
 </html>
 
