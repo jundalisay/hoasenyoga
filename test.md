@@ -1,3 +1,15 @@
+Yes! Abandon the world we live in filled with global warming disasters, Gaza people starving to death, Russia hammering Ukraine, Africa destroying itself, world leaders kissing Trump's ass.  
+
+Move to a world a better science that realizss nuclear fusion instead of oil, moneyless economies with no hunger, governments integrated with AI, teleportation to other planets for tourism, levitating ships to avoid earthquakes floods hurricanes.  
+
+
+The Khmer were the superpower of Southeast Asia stronger than Java or Sri Vijaya. Before Islam came, Khmer is the best representative of Southeast Asia. 
+
+The Thai people aren't even from Thailand. They're from Bai Yue like the Vietnamese. It would be absurd to tell the Americans to go back to England whenever they are hurting the Native Americans. Instead, we implore them to respect the natives and their land and to live in peace with them. Likewise, we tell the Thais please restore the dignity of the Khmer who were betrayed and sacked by the Siamese, Chams, and Malays. The sacking of Khmer by Siam would be ok if Siam could be the shining example of Southeast Asia to the world. But no. Right now, Singapore is the best Southeast Asian. 
+
+
+
+
 {{ define "main" }}
 <div class="container mx-auto px-4 max-w-(--breakpoint-md) py-8">
   <h1 class="text-3xl font-bold mb-6 dark:text-white">{{ .Title }}</h1>

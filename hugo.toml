@@ -1,10 +1,10 @@
 baseURL = 'https://hoasen.pantrypoints.com/'
-languageCode = 'en-us'
+languageCode = 'vi'
 title = 'Yoga Hoa Sen'
 timeout = "300s"
 ignoreLogs = ['warning-goldmark-raw-html']
 theme = "super"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "vi"
 DefaultContentLanguageInSubdir = true
 enableEmoji = true
 
@@ -20,14 +20,16 @@ pagerSize = 24
     languageName = "English"
     [languages.en.menu]
       main = [
-        {name = "Articles", url = "articles", weight = 1},
+        {name = "Articles", url = "articles", weight = 9},
         {name = "Classes", url = "classes", weight = 2},
-        {name = "Math", url = "supermath", weight = 3},
-        {name = "Material", url = "material", weight = 5},
-        {name = "News", url = "news", weight = 1},
-        {name = "FAQs", url = "faqs", weight = 25},
-        {name = "Tags", url = "tags", weight = 27},
-        {name = "Help!", url = "help", weight = 29}
+        {name = "Basics", url = "basics", weight = 1},
+        {name = "Events", url = "events", weight = 7},
+        {name = "AMURT", url = "amurt", weight = 8},
+        {name = "Master Unity", url = "master", weight = 12},                
+        {name = "News", url = "news", weight = 11},
+        {name = "FAQs", url = "faqs", weight = 15},
+        {name = "Tags", url = "tags", weight = 17},
+        {name = "Help!", url = "help", weight = 19}
       ]
     [languages.en.params]
       flag = "/flags/gb.png"
