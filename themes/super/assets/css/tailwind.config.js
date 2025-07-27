@@ -16,6 +16,27 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+       animation: {
+                        'bounce-slow': 'bounce 2s infinite',
+                        'ping-slow': 'ping 3s cubic-bezier(0, 0, 0.2, 1) infinite',
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                        'glow': 'glow 2s ease-in-out infinite alternate',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0px)' },
+                            '50%': { transform: 'translateY(-20px)' }
+                        },
+                        glow: {
+                            '0%': { filter: 'drop-shadow(0 0 5px rgba(236, 72, 153, 0.3))' },
+                            '100%': { filter: 'drop-shadow(0 0 20px rgba(236, 72, 153, 0.8))' }
+                        }
+                    },
+
+
+
+
       typography: (theme) => ({
         DEFAULT: {
           css: [
@@ -106,3 +127,7 @@ module.exports = {
   },
   plugins: [require("@tailwindcss/typography")],
 };
+
+
+
+

@@ -1,6 +1,6 @@
 baseURL = 'https://hoasen.pantrypoints.com/'
 languageCode = 'vi'
-title = 'Yoga Hoa Sen'
+title = 'Ask Lavanya'
 timeout = "300s"
 ignoreLogs = ['warning-goldmark-raw-html']
 theme = "super"
@@ -29,13 +29,15 @@ pagerSize = 24
         {name = "News", url = "news", weight = 11},
         {name = "FAQs", url = "faqs", weight = 15},
         {name = "Tags", url = "tags", weight = 17},
-        {name = "Help!", url = "help", weight = 19}
+        {name = "Donate", url = "donate", weight = 19}
       ]
     [languages.en.params]
       flag = "/flags/gb.png"
-      title = "Yoga Hoa Sen"
-      subtitle = "Solving Problems"
-      youtube = "mNwyj7WHKKo"
+      title = "Ask Lavanya"
+      subtitle = "Promoting Yoga and Spirituality"
+      button = "Explore classes"
+      youtube = "IfotqGd1lI0"
+      contact = "Contact Us"
 
     [languages.en.params.trio]
       intro = "All Knowledge Can Be Grouped Into Three"
@@ -44,22 +46,6 @@ pagerSize = 24
         { img = "/icons/sp.png", title = "Superphysics", sub = "51-99% Replicable: Subjective" },
         { img = "/icons/atom.png", title = "Physics", sub = "100% Replicable: Objective" },        
       ]
-
-    [languages.en.params.quote0]
-      content = "Natural science is divided into physic and metaphysic. Physic should contemplate that which is inherent in matter and therefore transitory. Metaphysic should contemplate that which is abstracted and fixed."
-      icon = "Francis Bacon"
-      author = "Francis Bacon"
-      src = "The Proficience And Advancement Of Learning, Book 2, Part 7"
-    [languages.en.params.quote1]
-      content = "There are 3 principal sciences: Mechanics, Medicine, Ethics"
-      icon = "Rene Descartes"
-      author = "Rene Descartes"
-      src = "The Principles of Philosophy, Preface"
-    [languages.en.params.quote2]
-      content = "Things cannot have absolute Existence without any relation to their being perceived. They cannot have any Existence without the Minds which perceive them. I find it strange that people think that Houses, Mountains, and all sensible Objects have a Real Existence, distinct from their being perceived by the Understanding."
-      icon = "George Berkeley"
-      author = "George Berkeley"
-      src = "The Principles of Human Knowledge, Article 3"
 
     [languages.en.params.sciences]
       title = "The Sciences That Open Up The Universe"
@@ -89,12 +75,14 @@ pagerSize = 24
         {name = " मदद कर सकते", url = "help", weight = 2}
       ]
     [languages.vi.params]
-      flag = "/flags/in.png"
-      title = "सुपरफिजिक्स: तरंग-आधारित वैज्ञानिक मानदंड"
-      subtitle = "मेटाफिजिक्स और सोक्रेटिक वाद के आधार पर आधारित एक नया विज्ञान"
+      flag = "/flags/vi.png"
+      title = "Hỏi bất cứ điều gì với Lavanya"
+      subtitle = "Thúc đẩy yoga và tâm linh"
       youtube= "pJDEDX7DI5Y"
-    [languages.vi.params.trio]
-      intro = "सभी ज्ञान को तीन भागों में विभाजित किया जा सकता है:"
+      contact = "Contact Us"
+    [languages.vi.params.about]
+      intro = "'Hỏi Lavanya bất cứ điều gì'' là gì?"
+      par = "..."
       icons = [
         { img = "/icons/tao.png", title = "मेटाफिजिक्स", sub = "0-50% पुनरावलोकनीय: विरोधात्मक" },
         { img = "/icons/sp.png", title = "सुपरफिजिक्स", sub = "51-99% पुनरावलोकनीय: व्यक्तिगत" },
