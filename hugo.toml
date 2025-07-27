@@ -1,6 +1,6 @@
 baseURL = 'https://hoasen.pantrypoints.com/'
 languageCode = 'vi'
-title = 'Ask Lavanya'
+title = 'Yoga Hoa Sen'
 timeout = "300s"
 ignoreLogs = ['warning-goldmark-raw-html']
 theme = "super"
@@ -33,8 +33,8 @@ pagerSize = 24
       ]
     [languages.en.params]
       flag = "/flags/gb.png"
-      title = "Ask Lavanya"
-      subtitle = "Promoting Yoga and Spirituality"
+      title = "Yoga and Spirituality in Saigon"
+      subtitle = "Promoting Yoga and Spirituality in Vietnam and the world"
       button = "Explore classes"
       youtube = "IfotqGd1lI0"
       contact = "Contact Us"
@@ -76,13 +76,17 @@ pagerSize = 24
       ]
     [languages.vi.params]
       flag = "/flags/vi.png"
-      title = "Hỏi bất cứ điều gì với Lavanya"
-      subtitle = "Thúc đẩy yoga và tâm linh"
+      title = "Yoga và Tâm linh ở Sài Gòn"
+      subtitle = "Thúc đẩy Yoga và Tâm linh tại Việt Nam và thế giới"
       youtube= "pJDEDX7DI5Y"
       contact = "Contact Us"
+      button = "Explore classes"
+
     [languages.vi.params.about]
-      intro = "'Hỏi Lavanya bất cứ điều gì'' là gì?"
-      par = "..."
+      intro = "Yoga Hoa Sen là gì?"
+      par = "<p>Mục tiêu của Yoga: đạt tới hạnh phúc hoàn hảo.</p><p>Yoga là chiếc chìa khóa vàng để mở tung cánh cửa dẫn đến sự bình an, tĩnh lặng, niềm vui sướng và hạnh phúc.</p>"
+
+
       icons = [
         { img = "/icons/tao.png", title = "मेटाफिजिक्स", sub = "0-50% पुनरावलोकनीय: विरोधात्मक" },
         { img = "/icons/sp.png", title = "सुपरफिजिक्स", sub = "51-99% पुनरावलोकनीय: व्यक्तिगत" },
