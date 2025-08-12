@@ -68,7 +68,16 @@ pagerSize = 24
     languageName = "Tieng Viet"
     [languages.vi.menu]
       main = [
-        {name = " मदद कर सकते", url = "help", weight = 2}
+        {name = "Bài viết", url = "articles", weight = 9},
+        {name = "Lớp", url = "classes", weight = 2},
+        {name = "Cơ bản", url = "basics", weight = 1},
+        {name = "Sự kiện", url = "events", weight = 7},
+        {name = "AMURT", url = "amurt", weight = 8},
+        {name = "Master Unit", url = "master", weight = 12},                
+        {name = "Tin tức", url = "news", weight = 11},
+        {name = "Câu hỏi thường gặp", url = "faqs", weight = 15},
+        {name = "Tags", url = "tags", weight = 17},
+        {name = "Donate", url = "donate", weight = 19}
       ]
     [languages.vi.params]
       flag = "/flags/vn.png"
