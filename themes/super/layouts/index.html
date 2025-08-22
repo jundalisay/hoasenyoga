@@ -177,16 +177,15 @@
             </span>
         </h2>
 
-
             <div class="flex flex-col md:flex-row items-center justify-center gap-12">
                 <div class="md:w-1/2">
                     <img src="/photos/events/6-2024.jpg" alt="Yoga Studio" class="rounded-xl shadow-lg w-full h-auto object-cover">
                 </div>
-                <div class="md:w-1/2 text-left">
-                    <p class="text-lg text-gray-700 mb-4">
+                <div class="md:w-1/2 text-left text-2xl">
+                    <p class="text-gray-700 mb-4">
                         {{ .Site.Language.Params.About.par | safeHTML }}
                     </p>
-                    <a href="#contact" class="inline-block text-pink-600 hover:underline font-semibold">Learn More &rarr;</a>
+                    <a href="/about" class="inline-block text-pink-600 hover:underline font-semibold">Learn More &rarr;</a>
                 </div>
             </div>
         </div>
@@ -194,7 +193,7 @@
 
 
     <!-- Schedule Section -->
-    <section id="schedule" class="py-20 px-6">
+    <section id="classes" class="py-20 px-6">
         <div class="container mx-auto text-center">
           <h2 class="text-4xl font-bold mb-6 text-green-200">{{ i18n "browseclasses" }}</h1>
           
@@ -233,7 +232,7 @@
               
               <!-- Search Button -->
               <div>
-                <button id="search-button" class="px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-200">
+                <button id="search-button" class="px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 transition-colors duration-200">
                   {{ if eq .Site.Language.Lang "vi" }}Tìm kiếm{{ else }}Search{{ end }}
                 </button>
               </div>
@@ -254,8 +253,8 @@
 
 
         <h2 class="text-6xl md:text-3xl font-bold text-white text-center mb-8 animate-pulse">
-            <span class="bg-gradient-to-r from-pink-400 via-orange-400 to-red-400 bg-clip-text text-transparent">
-                {{ .Site.Language.Params.contact }}
+            <span class="bg-gradient-to-r from-yellow-400 via-orange-400 to-rose-400 bg-clip-text text-transparent">
+                {{ i18n "contactus" }}
             </span>
         </h2>
 
@@ -263,7 +262,7 @@
                 <p class="text-lg text-gray-700 mb-6">
                     Have questions or ready to book a class? Reach out to us!
                 </p>
-                <form class="space-y-4">
+                <form class="space-y-4" id="contactform" action="https://usebasin.com/f/fe409f5e1e78" method="post" target="_blank">
                     <div>
                         <input type="text" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-pink-500 focus:border-transparent">
                     </div>
@@ -273,21 +272,19 @@
                     <div>
                         <textarea placeholder="Your Message" rows="5" class="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-pink-500 focus:border-transparent"></textarea>
                     </div>
-                    <button type="submit" class="w-full bg-orange-800 text-white font-semibold py-3 px-6 rounded-md shadow-lg hover:bg-pink-700 transition-colors duration-300">
+                    <button type="submit" class="w-full bg-green-800 text-white font-semibold py-3 px-6 rounded-md shadow-lg hover:bg-pink-700 transition-colors duration-300">
                         {{ i18n "send" }}
                     </button>
                 </form>
                 <div class="mt-8 text-gray-600">
-                    <p><strong>Email:</strong></p>
-                    <!-- <p><strong>Phone:</strong> +1 (123) 456-7890</p> -->
-                    <p><strong>Address:</strong> Saigon, Vietnam</p>
+                    <!-- <p><strong>Email:</strong></p> -->
+                    <p><strong>Phone:</strong>Cô Châu 0918.873.316</p>
+                    <p><strong>Phone:</strong>Cô Khanh 0903.004.984</p>                    
+                    <p><strong>Address:</strong> Số 34 Phan Liêm, Quận 1, HCMC, Vietnam</p>
                 </div>
             </div>
         </div>
     </section>
-
-
-
 
     <script>
         // JavaScript for responsive mobile menu toggle
