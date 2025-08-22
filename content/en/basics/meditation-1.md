@@ -9,6 +9,7 @@ writer:
   url: https://www.linkedin.com/in/baolamnguyen/
 icon: "Lam"
 weight: 6
+draft: true
 ---
 
 

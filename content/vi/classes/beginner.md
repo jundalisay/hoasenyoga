@@ -13,6 +13,3 @@ day: "monday"      # or any day of the week
 time: "9:00 AM"    # optional
 ---
 
-asd
-fas
-d

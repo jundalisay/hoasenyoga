@@ -1,9 +1,8 @@
 ---
 title: "Yama Niyama"
-linkTitle: "Principles"
-description: "We explain key principles of Superphysics"
+description: ""
 c: "steelblue"
-type: "featured"
+image: /asanas/tree.jpg
 weight: 1
 ---
 

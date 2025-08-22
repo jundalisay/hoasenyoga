@@ -8,7 +8,8 @@ writer:
   name: Lam
   url: https://www.linkedin.com/in/baolamnguyen/
 icon: "Lam"
-weight: 10
+weight: 1
+draft: true
 ---
 
 
