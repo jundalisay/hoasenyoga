@@ -2,7 +2,7 @@
 heading: "Chapter 8"
 title: "'The Butterfly Effect"
 date: 2020-12-24
-image: /photos/psych/freedom.jpg
+image: /asanas/child.jpg
 description: The Butterfly Effect is a consequence of the unseen aethereal patterns crossing over onto the physical domain  
 writer:
   name: Juan

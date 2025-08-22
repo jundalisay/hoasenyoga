@@ -4,6 +4,7 @@ heading: "Chapter 1"
 date: 2019-01-01
 weight: 4
 image: /photos/tech/mac.jpg
+draft: true
 description: "في الفصل السابق، قسمنا الوجود إلى مجالين"
 icon: /icons/sp.png
 writer:

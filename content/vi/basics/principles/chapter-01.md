@@ -6,6 +6,7 @@ weight: 4
 image: /photos/tech/mac.jpg
 description: "كل ما ندركه موجود في الكون الذي هو مصفوفة لأفكار خالق الوجود"
 icon: /icons/sp.png
+draft: true
 writer:
   name: Juan
   url: https://www.linkedin.com/in/jundalisay/
