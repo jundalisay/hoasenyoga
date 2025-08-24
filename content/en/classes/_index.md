@@ -1,8 +1,7 @@
 ---
 title: "Classes"
-linkTitle: "Principles"
-description: "We explain key principles of Superphysics"
-youtube: "7dQKNi0NgNY"
+description: ""
+# youtube: "7dQKNi0NgNY"
 c: "steelblue"
 weight: 1
 ---

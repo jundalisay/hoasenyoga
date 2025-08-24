@@ -1,8 +1,7 @@
 ---
-title: "AMURT"
+title: "Articles"
 description: ""
+# youtube: "7dQKNi0NgNY"
 c: "steelblue"
-# type: "featured"
 weight: 1
 ---
-

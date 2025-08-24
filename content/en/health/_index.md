@@ -1,13 +1,13 @@
 ---
-title: "Changelog and History"
-heading: "The evolution of Superphysics"
+title: "Health"
+# heading: "The evolution of Superphysics"
 #date: 2022-08-14
-weight: 1
-description: "We list the events in the evolution of Superphysics."
+weight: 2
+description: ""
 image: "/photos/objects/clock.jpg"
-draft: true
-writer:
-  name: Juan
-  url: https://www.linkedin.com/in/jundalisay/
+# draft: true
+# writer:
+#   name: Juan
+#   url: https://www.linkedin.com/in/jundalisay/
 ---
 

@@ -26,10 +26,11 @@
       <div id="menu" class="hidden w-full md:flex md:items-center md:space-x-6 md:w-auto">
         {{ range .Site.Menus.main }}
           <a href="{{ .URL | relLangURL }}"
-             class="block uppercase py-2 text-xs tracking-tighter dark:text-white text-gray-100 hover:text-yellow-600">
+             class="block uppercase py-2 text-xs tracking-tighter text-gray-800 hover:text-yellow-600">
             {{ .Name }}
           </a>
         {{ end }}
+        <!-- dark:text-white -->
       </div>
 
       <!-- Language Switcher -->
