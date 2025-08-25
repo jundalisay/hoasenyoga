@@ -1,10 +1,8 @@
 ---
-title: "News and About"
-image: "/covers/socrates.jpg"
-youtube: "mNwyj7WHKKo"
-description: "Here is the latest news about Superphysics"
+title: "News"
+image: "/asanas/tree.jpg"
+# youtube: "mNwyj7WHKKo"
+description: ""
 weight: 7
-aliases:
-  /about
 ---
 

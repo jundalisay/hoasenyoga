@@ -181,8 +181,12 @@
                 <div class="md:w-1/2">
                     <img src="/photos/events/6-2024.jpg" alt="Yoga Studio" class="rounded-xl shadow-lg w-full h-auto object-cover">
                 </div>
-                <div class="md:w-1/2 text-left text-2xl">
-                    <p class="text-gray-700 mb-4">
+                <div class="md:w-1/2 text-left">
+                    <p class="text-gray-700 mb-4 text-4xl">
+                        {{ i18n "slogan" }}
+                    </p>
+                    
+                    <p class="text-gray-700 text-2xl mb-4">
                         {{ .Site.Language.Params.About.par | safeHTML }}
                     </p>
                     <a href="/about" class="inline-block text-pink-600 hover:underline font-semibold">Learn More &rarr;</a>
