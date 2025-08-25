@@ -1,4 +1,4 @@
-baseURL = 'https://yogahoasen.com/'
+baseURL = 'https://hoasen.pantrypoints.com/'
 languageCode = 'vi'
 title = 'Yoga Hoa Sen'
 timeout = "300s"
